@@ -1,9 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApi", "TodoApi\TodoApi.csproj", "{E669895C-85A3-4440-A5FA-752E423D006A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStoreApi", "BookStoreApi\BookStoreApi.csproj", "{7CFA2FB2-96A1-4CBD-8D1D-A928747CFADB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApi2", "TodoApi2\TodoApi2.csproj", "{49AD4D47-6605-4E9A-B063-75BA6B2175E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +24,14 @@ Global
 		{E669895C-85A3-4440-A5FA-752E423D006A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E669895C-85A3-4440-A5FA-752E423D006A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E669895C-85A3-4440-A5FA-752E423D006A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFA2FB2-96A1-4CBD-8D1D-A928747CFADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFA2FB2-96A1-4CBD-8D1D-A928747CFADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFA2FB2-96A1-4CBD-8D1D-A928747CFADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFA2FB2-96A1-4CBD-8D1D-A928747CFADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49AD4D47-6605-4E9A-B063-75BA6B2175E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49AD4D47-6605-4E9A-B063-75BA6B2175E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49AD4D47-6605-4E9A-B063-75BA6B2175E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49AD4D47-6605-4E9A-B063-75BA6B2175E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
